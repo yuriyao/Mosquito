@@ -1,0 +1,143 @@
+#Main
+{
+	background-color: #222;
+	padding: 5px 20px;
+	margin-right: -20;
+	margin-left: -20;
+	margin-top: -10;
+	border-bottom: solid #888 2px;
+	vertical-align: center;
+}
+
+
+#logo
+{
+	color: #ccc;
+	font-size: 20pt;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#search
+{
+	float: right;
+	display: line;
+	margin-top: -25;
+}
+
+#main_page, #log, #photos, #say
+{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 15pt;
+	margin-left: 20px;
+}
+
+#second
+{
+	background-color: #eee;
+	margin-left: -20px;
+	margin-right: -20px;
+	border-bottom: solid #ccc 1px;
+	padding-left: 20;
+	padding-right: 20;
+	padding-top: 0;
+	padding-bottom: 0;
+
+}
+
+#head_img
+{
+	display: inline;
+}
+
+#picture
+{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+
+#sample_info
+{
+	float: left;
+}
+
+#sample_info2
+{
+	display: inline;
+}
+
+#name
+{
+	margin-left: 15px;
+	display: none;
+}
+
+#level
+{
+	margin-bottom: 10;
+	vertical-align: bottom;
+	margin-left: -50;
+	display: none;
+}
+
+table #panel
+{
+	width: 350px;
+	min-width: 350px;
+	max-width: 350px;
+	display: inline;
+}
+
+#quick_say
+{
+	min-width: 350px;
+	margin-left: 150px;
+	max-height: 40px;
+	min-height: 40px;
+}
+
+#public_say
+{
+	/*display: none;*/
+}
+
+#last_say
+{
+	/*display: none;*/
+}
+
+
+#left
+{
+	min-width: 100px;
+	max-width: 100px;
+	background-color: #eee;
+	min-height: 600px;
+	float: left;
+	padding-left: 20;
+	margin-left: -20;
+}
+
+#right
+{
+	float: right;
+	background-color: #eee;
+	min-height: 600px;
+	max-width: 200px;
+	min-width: 200px;
+	padding-right: 20;
+	margin-right: -20;
+}
+
+#last_comer
+{
+	margin-left: 10px;
+
+}
+
+#center
+{
+	float: left;
+}

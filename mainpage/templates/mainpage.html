@@ -1,0 +1,59 @@
+<!-- 蚊蚊网的主页 -->
+<html>
+<head>
+	<title>蚊蚊网</title>
+	<script type="text/javascript" src="/global/jquery.js"></script>
+	<script type="text/javascript" src="/main_page_js/mainpage.js"></script>
+	<link rel="stylesheet" type="text/css" href="/main_page_css/mainpage.css">
+</head>
+<body>
+<div id="Main">
+	<div id="together">
+		<span id="logo">蚊蚊网</span>
+		<a id="main_page" href="/mainpage/">主页</a>
+		<a id="log" href="/log/">日志</a>
+		<a id="photos" href="/photos/">相册</a>
+		<a id="say" href="/say/">说说</a>
+	</div>
+	<form id="search" action="" method="get" align="right">
+		<span><input type="text" max-length="100" id="search_input"></span>
+		<span><input type="submit" id="search_submit" value="查询"></span>
+	</form>
+</div>
+<div id="second">
+	<div id="sample_info">
+		<img src="{{ user.picture }}/main_page_css/1.jpg" href="/my_picture/" id="picture">
+		<div id="sample_info2">
+		<span id="name">{{ user.name }}姚逢靖</span>
+		<span id="level">{{ user.level }}21级</span>
+		</div>
+	</div>
+	<span>
+		<table id="panel">
+			<tr>
+				<td colspan="4"><textarea id="quick_say" align="center"></textarea></td>
+			</tr>
+			<tr>
+				<td colspan="3" id="last_say">{{ user.last_say }}我靠了啦</td>
+				<td><button id="public_say">发布</button></td>
+			</tr>
+		</table>
+	</span>
+</div>
+<div id="left">
+hello
+</div>
+<div id="center">
+	ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>ni<br>
+</div>
+<div id="right">
+<div id="last_comers">
+	<span id="last_comer">最近来访</span><span id="comer_num">{{ user.last_comers }}</span>
+</div>
+</div>	
+
+<div id="toolkit">
+
+</div>
+</body>
+</html>
