@@ -1,0 +1,116 @@
+#Main
+{
+	background-color: #222;
+	padding: 5px 20px;
+	margin-right: -20;
+	margin-left: -20;
+	margin-top: -10;
+	border-bottom: solid #888 2px;
+	vertical-align: center;
+}
+
+
+#logo
+{
+	color: #ccc;
+	font-size: 20pt;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#search
+{
+	float: right;
+	display: line;
+	margin-top: -25;
+}
+
+#account
+{
+	float: right;
+	margin-top: -25;
+	margin-right: 20px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+#main_page, #log, #photos, #say, #deal, #personal
+{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 15pt;
+	margin-left: 20px;
+}
+
+table
+{
+	margin-top: 100px;
+	border: solid #FF6C1E 1px; 
+	padding-bottom: 20px;
+}
+
+th
+{
+	text-align: left;
+	margin-left: 20px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top:-1px;
+	background-color: #FDDBC8;
+}
+
+.tip
+{
+	font-style: normal;
+	color: #444;
+	font-weight: normal;
+	font-size: 10pt;
+}
+
+tr
+{
+	padding-top: 20px;
+	margin-top: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
+td
+{
+	margin-left: 10px;
+	padding-top: 10px;
+}
+
+.label
+{
+	text-align: right;
+	padding-left: 40px;
+
+}
+
+label
+{
+	padding-right: -5px;
+	padding-left: 10px;
+}
+
+#birth_month
+{
+	margin-left: -20px;
+	padding-left: -20px;
+}
+
+#birth_day
+{
+	margin-left: -15px;
+	padding-left: -20px;
+}
+
+#submit
+{
+	text-align: center;
+	margin: 0 auto;
+}
+

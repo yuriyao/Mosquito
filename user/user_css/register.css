@@ -1,0 +1,60 @@
+#navi
+{
+	text-align: right;
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+#login  a, #help  a
+{
+	color: #000;
+}
+
+#login_main
+{
+	text-align: center;
+	vertical-align: center;
+}
+
+table
+{
+	text-align: center;
+	margin-top: 100;
+	padding: 20px 40px;
+	border: solid #FF6C1E 1px; 
+}
+
+tr
+{
+	text-align: right;
+}
+
+td
+{
+	margin: 20px;
+	padding: 5px;
+}
+
+.error
+{
+	color: red;
+	margin-left: 5px;
+	font-style: italic;
+	font-size: 7pt;
+	text-align: left;
+}
+.tips
+{
+	font-size: 7px;
+	color: #222;
+	text-align: center;
+}
+
+.must
+{
+	color: red;
+}
+
+#submit
+{
+}

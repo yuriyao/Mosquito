@@ -1,0 +1,55 @@
+#Main
+{
+	background-color: #222;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 900px;
+	margin-right: -1000;
+	margin-left: -20;
+	margin-top: -10;
+	border-bottom: solid #888 2px;
+	vertical-align: center;
+	position: fixed;
+	top: 5;
+}
+
+
+#logo
+{
+	color: #ccc;
+	font-size: 20pt;
+	margin-left: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#top_right
+{
+	position: fixed;
+	right: 0px;
+
+}
+
+#search
+{
+	margin-top: -25;
+	float: right;
+}
+
+#account
+{
+	float: right;
+	margin-top: -25;
+	margin-right: 20px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+#main_page, #log, #photos, #say, #deal, #personal
+{
+	text-decoration: none;
+	color: #ccc;
+	font-size: 15pt;
+	margin-left: 20px;
+}

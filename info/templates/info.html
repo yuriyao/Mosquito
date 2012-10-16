@@ -1,0 +1,116 @@
+<html>
+<head>
+	<title>蚊蚊网</title>
+	<script type="text/javascript" src="/global/jquery.js"></script>
+	<script type="text/javascript" src="/info_js/info.js"></script>
+	<script type="text/javascript" src="/search_js/search.js"></script>
+	<link rel="stylesheet" type="text/css" href="/info_css/info.css">
+	<link rel="stylesheet" type="text/css" href="/search_css/search.css">
+</head>
+<body>
+<div id="Main">
+	<div id="together">
+		<span id="logo">蚊蚊网</span>
+		<a id="main_page" href="/mainpage/">主页</a>
+		<a id="log" href="/log/">日志</a>
+		<a id="photos" href="/photos/">相册</a>
+		<a id="say" href="/say/">说说</a>
+		<a id="deal" href="/deal/">交易</a>
+		<a id="personal" href="/info/">信息</a>
+	</div>
+	
+	<form id="search" action="/search/" method="get" align="right">
+		<span><input type="text" max-length="100" id="search_input" name="search"></span>
+		<span><input type="submit" id="search_submit" value="查询"></span>
+	</form>
+	<a href="/logout/" id="account">登出</a>
+</div>
+<!-- -->
+<div id="search_speci">
+	<input style="display:none" class="add" type="submit">
+	<div>查找结果:</div>
+	<div id="friends_set">
+		小猪
+	</div>
+	<div id="handup">收起</div>
+</div>
+<!---------------------------------------------------->
+<div>
+	<form action="" method="post">
+	<table align="center">
+		<th colspan="4">基本信息<span class="tip">(信息正确有利于好友寻找)</span></th>
+		<tr>
+			<td class="label">真实姓名:</td><td><input type="text" id="r_name_input" name="r_name" 
+			value="{{ user.r_name }}"></td>
+		</tr>
+		<tr>
+			<td class="label">性别:</td>
+			<td>
+				<span  style="display:none;" id="sex_default">{{ user.sex }}</span>
+				<label for="male">男</label>
+				<input type="radio" name="sex" id="male" value="M">
+				<label for="female">女</label>
+				<input type="radio" name="sex" id="female" value="F">
+			</td>
+		</tr>
+		<tr>
+			<td class="label">生日:</td>
+			<td>
+				<span style="display:none" id="year_default">{{ user.birth_year }}</span>
+				<select name="birth_year" id="birth_year" value="10">
+				{% for i in year_to_now %}
+					<option value="{{ i }}">{{ i }}</option>
+				{% endfor %}
+				</select>
+				年
+			</td>
+			<td>
+				<span style="display:none;" id="month_default">{{ user.birth_month }}</span>
+				<select name="birth_month" id="birth_month">
+				{% for i in months%}
+					<option value="{{ i }}">{{ i }}</option>
+				{% endfor %}
+				</select>
+				月
+			</td>
+			<td>
+				<span style="display:none;" id="day_default">{{ user.birth_day }}</span>
+				<select name="birth_day" id="birth_day">
+				{% for i in days %}
+					<option value="{{ i }}">{{ i }}</option>
+				{% endfor %}
+				</select>
+				日
+			</td>
+		</tr>
+		<tr>
+			<td class="label">现在学校:</td>
+			<td>
+				<span style="display:none;" id="type_default">{{ user.school_type }}</span>
+				<select id="school_type" name="school_type">
+					<option value="1">小学</option>
+					<option value="2">中学</option>
+					<option value="3">大学</option>
+					<option value="4">中专</option>
+					<option value="5">大专</option>
+					<option value="6">其他</option>
+				</select>
+			</td>
+			<td>
+				<input type="text" value="{{ user.school_name }}" name="school" id="school_name">
+			</td>
+			<td>
+				<span style="display:none;" id="grade_default">{{ user.school_grade }}</span>
+				<select id="grade" name="grade">
+
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" align="center"><input type="submit" id="submit" value="提交修改"></td>
+		</tr>
+	</table>
+	</form>
+</div>
+</body>
+</html>

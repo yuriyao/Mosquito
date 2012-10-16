@@ -1,0 +1,22 @@
+#search_speci
+{
+	margin-top: 88px;
+	position: fixed;
+	right: 10px;
+	width: 250px;
+	background-color: #efefef;
+	display: none;
+	text-align: center;
+}
+
+#search_speci2
+{
+	height: 0px
+}
+
+#handup
+{
+	text-align: center;
+	background-color: #eee;
+	vertical-align: bottom;
+}

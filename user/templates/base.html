@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title>{% block title %}{% endblock %}</title>
+	<link rel="stylesheet" type="text/css" href="/user_css/base.css">
+	{% block head %}{% endblock %}
+</head>
+<body>
+	{% block body %}{% endblock %}
+	{% block footer %}
+	<div id="footer">
+		<span id="copyrigth">&copy;蚊蚊网——哈尔滨工业大学</span>
+		<span id="contact">联系信息:<a href="mailto:heishiyuriyao@gmail.com" target="_blank">heishiyuriyao@gmail.com</a></span>
+	</div>
+	{% endblock %}
+</body>
+</html>

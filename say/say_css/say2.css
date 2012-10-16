@@ -1,0 +1,84 @@
+#second
+{
+	position: fixed;
+	top: 35px;
+	background-color: #ccc;
+	/*padding:20px, 1000px, 20px, 50px;*/
+	padding-top: 10px;
+	padding-right: 9000px;
+	padding-left: 50px;
+	padding-bottom: 10px;
+	margin-left: -50px;
+	margin-right: -9000px;
+}
+
+#my_say
+{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 250px;
+	padding-bottom: 8px;
+	border-bottom: solid 2px #000;
+}
+
+#friends_say
+{
+	color: #444;
+	text-decoration: none;
+	font-weight: bold;
+	margin-left: 50px;
+}
+
+#frame
+{
+	margin-top: 75px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #F8F8F8;
+	border: solid 1px #c9c9c9;
+}
+
+#left
+{
+	width: 550px;
+	background-color: #efefef;
+	padding-bottom: 20px;
+}
+
+#frame_head
+{
+	background-color: #eee;
+	font-size: 15pt;
+	color: #222;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	border-bottom: solid 1px #ccc;
+}
+
+#say_input
+{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 500px;
+	height: 50px;
+	border: solid 1px #aaa;
+}
+
+#submit
+{
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 470px;
+	padding: 2px 8px;
+	background-color: #777;
+	border: solid 1px #555;
+}
+
+hr
+{
+	height: 1px;
+	border-top: 1px dashed #aaa;
+	margin-left: 20px;
+	margin-right: 20px;
+}

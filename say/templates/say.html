@@ -1,0 +1,73 @@
+<!-- 蚊蚊网的主页 -->
+<html>
+<head>
+	<title>蚊蚊网</title>
+	<script type="text/javascript" src="/global/jquery.js"></script>
+	<script type="text/javascript" src="/say_js/say.js"></script>
+	<script type="text/javascript" src="/search_js/search.js"></script>
+	<link rel="stylesheet" type="text/css" href="/search_css/search3.css">
+	<link rel="stylesheet" type="text/css" href="/say_css/say.css">
+	<link rel="stylesheet" type="text/css" href="/say_css/say2.css">
+	<link rel="stylesheet" type="text/css" href="/say_css/say_append.css">
+</head>
+<body>
+<div id="Main">
+	<div id="together">
+		<span id="logo">蚊蚊网</span>
+		<a id="main_page" href="/mainpage/">主页</a>
+		<a id="log" href="/log/">日志</a>
+		<a id="photos" href="/photos/">相册</a>
+		<a id="say" href="/say/">说说</a>
+		<a id="deal" href="/deal/">交易</a>
+		<a id="personal" href="/info/">信息</a>
+	</div>
+	
+	<div id="top_right">
+		<form id="search" action="/search/" method="get" align="right">
+			<span><input type="text" max-length="100" id="search_input" name="search" ></span>
+			<span><input type="submit" id="search_submit" value="查询"></span>
+		</form>
+		<a href="/logout/" id="account">登出</a>
+	</div>
+</div>
+
+<!-- -->
+<div id="search_speci">
+	<div id="search_speci2">
+		<div>查找结果:</div>
+		<div id="friends_set">
+			小猪
+		</div>
+	</div>
+	<div id="handup">收起</div>
+</div>
+<!---------------------------------------------------->
+
+<div id="second">
+	<a href="/say/" id="my_say">我的说说</a>
+	<a href="/say/" id="friends_say">好友说说</a>
+</div>
+
+<div id="frame">
+	<div id="frame_head">说说</div>
+	<div id="left">
+		<div id="main_say">
+			<textarea id="say_input">发布说说</textarea>
+			<div>
+				<button id="submit" align="center">发表</button>
+			</div>
+		</div>
+		<hr>
+		<div id="all_say">
+
+		</div>
+	</div>
+	<div id="right">
+		<div id="say_info">
+			
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

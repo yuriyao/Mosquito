@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}
+创建蚊蚊号
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/user_css/register.css">
+<script type="text/javascript" src="/global/jquery.js"></script>
+<script type="text/javascript" src="/user_js/register.js"></script>
+{% endblock %}
+
+{% block body %}
+<div id="navi">
+	<span id="login"><a href="/login/">登录</a></span>
+	<span class="split">|</span>
+	<span id="help"><a href="/help/">帮助</a></span>
+</div>
+<form action="" method="post">
+<table id="login_main" align="center">
+	<tr>
+		<td id="u_name"><span class="must">*</span>用户名:</td>
+		<td><input id="u_name_input" type="text" max-length="15" value="{{ user.u_name}}" name="u_name"></td>
+		<td class="error">{{ user.u_name_error }}</td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tips">(5到15位字母、数字或者下划线组成)</td>
+	</tr>
+	<tr>
+		<td id="u_pwd"><span class="must">*</span>密码:</td>
+		<td><input id="u_pwd_input" type="password" max-length="30" value="{{ user.u_pwd }}" name="u_pwd"></td>
+		<td class="error">{{ user.u_pwd_error }}</td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tips">(5到30位字母、数字、下划线组成)</td>
+	</tr>
+	<tr>
+		<td id="u_confirm"><span class="must">*</span>确认密码:</td>
+		<td><input id="u_confirm_input" type="password" max-length="30" value="{{ user.u_confirm }}" name="u_confirm"></td>
+		<td class="error">{{ user.u_confirm_error }}</td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tips">(必须和密码输入相同)</td>
+	</tr>
+	<tr>
+		<td id="u_email"><span class="must">*</span>E-mail:</td>
+		<td><input id="u_email_input" type="text" max-length="40" name="u_email" value="{{ user.u_email }}"></td>
+		<td class="error">{{ user.u_email_error }}</td>
+	</tr>
+	<tr>
+		<td colspan="3" class="tips">(必须是正确的e-mail地址,否则帐号无法激活)</td>
+	</tr>
+	<tr>
+		<td id="confirm" colspan="2" align="center"><input type="submit" value="提交" id="submit"></td>
+	</tr>
+</table>
+</form>
+{% endblock %}

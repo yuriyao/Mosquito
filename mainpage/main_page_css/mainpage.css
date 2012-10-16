@@ -1,12 +1,17 @@
 #Main
 {
 	background-color: #222;
-	padding: 5px 20px;
-	margin-right: -20;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 900px;
+	margin-right: -1000;
 	margin-left: -20;
 	margin-top: -10;
 	border-bottom: solid #888 2px;
 	vertical-align: center;
+	position: fixed;
+	top: 5;
 }
 
 
@@ -19,14 +24,29 @@
 	font-weight: bold;
 }
 
-#search
+#top_right
 {
-	float: right;
-	display: line;
-	margin-top: -25;
+	position: fixed;
+	right: 0px;
+
 }
 
-#main_page, #log, #photos, #say
+#search
+{
+	margin-top: -25;
+	float: right;
+}
+
+#account
+{
+	float: right;
+	margin-top: -25;
+	margin-right: 20px;
+	color: #ccc;
+	text-decoration: none;
+}
+
+#main_page, #log, #photos, #say, #deal, #personal
 {
 	text-decoration: none;
 	color: #ccc;
@@ -40,16 +60,19 @@
 	margin-left: -20px;
 	margin-right: -20px;
 	border-bottom: solid #ccc 1px;
+	border-top: solid #ccc 1px;
 	padding-left: 20;
-	padding-right: 20;
+	padding-right: 10000px;
 	padding-top: 0;
-	padding-bottom: 0;
+	padding-bottom: 5px;
+	position: fixed;
+	top:35px;
 
 }
 
 #head_img
 {
-	display: inline;
+
 }
 
 #picture
@@ -60,52 +83,62 @@
 
 #sample_info
 {
-	float: left;
+	margin-left:  5px;
 }
 
 #sample_info2
 {
-	display: inline;
+	position: fixed;
+	left: 75px;
+	top: 40px;
 }
 
 #name
 {
-	margin-left: 15px;
-	display: none;
+	margin-left: 10px;
+	
 }
 
 #level
 {
+	margin-left: 10px;
 	margin-bottom: 10;
 	vertical-align: bottom;
-	margin-left: -50;
-	display: none;
 }
 
-table #panel
+#panel
 {
 	width: 350px;
-	min-width: 350px;
-	max-width: 350px;
-	display: inline;
+	position: fixed;
+	left: 300px;
+	margin-top: 40px;
+	border: solid 1px #FF6C1E;
 }
 
 #quick_say
 {
-	min-width: 350px;
-	margin-left: 150px;
-	max-height: 40px;
-	min-height: 40px;
+	width: 350px;
+	height: 40px;
+	text-align: left;
+	wrap: physical;
 }
 
 #public_say
 {
-	/*display: none;*/
+	margin-top: 5px;
+	float: right;
 }
 
 #last_say
 {
-	/*display: none;*/
+	
+}
+
+#say_bottom
+{
+	background-color: #ccc;
+	display: none;
+	padding-bottom: 20px;
 }
 
 
@@ -116,6 +149,7 @@ table #panel
 	background-color: #eee;
 	min-height: 600px;
 	float: left;
+	margin-top: 88px;
 	padding-left: 20;
 	margin-left: -20;
 }
@@ -128,6 +162,7 @@ table #panel
 	max-width: 200px;
 	min-width: 200px;
 	padding-right: 20;
+	margin-top: 88px;
 	margin-right: -20;
 }
 
@@ -140,4 +175,6 @@ table #panel
 #center
 {
 	float: left;
+	margin-top: 88px;
+	width: 600px;
 }

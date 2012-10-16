@@ -1,0 +1,30 @@
+#error
+{
+	text-align: center;
+	color: red;
+	font-style: italic;
+}
+
+table
+{
+	text-align: center;
+	margin-top: 100px;
+	border: solid #FF6C1E 1px;
+	padding: 20px;
+}
+
+td
+{
+	text-align: right;
+}
+
+#operate
+{
+	text-align: center;
+}
+
+#register
+{
+	color: #222;
+	margin-left: 15px;
+}

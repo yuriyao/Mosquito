@@ -1,0 +1,16 @@
+#search_speci
+{
+	height: 0px;
+	position: fixed;
+	right: 10px;
+	width: 250px;
+	background-color: #efefef;
+	display: none;
+}
+
+#handup
+{
+	text-align: center;
+	background-color: #FDDBC8;
+	vertical-align: bottom;
+}

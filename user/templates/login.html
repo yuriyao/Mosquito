@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}
+登录蚊蚊网
+{% endblock %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="/user_css/login.css">
+<script type="text/javascript" src="/global/jquery.js"></script>
+<script type="text/javascript" src="/user_js/login.js"></script>
+{% endblock %}
+
+{% block body %}
+<div id="error">
+	{{ error }}
+</div>
+
+<form action="" method="post">
+	<table align="center">
+		<tr>
+			<td id="u_name">用户名:</td><td><input type="text" max-length="15" id="u_name_input" name="u_name" value="{{ u_name }}"></td>
+		</tr>
+		<tr>
+			<td id="u_pwd">密码:</td><td><input type="password" max-length="30" id="u_pwd_input" name="u_pwd" value="{{ u_pwd }}"></td>
+		</tr>
+		<tr>
+			<td colspan="2" id="operate"><input type="submit" id="submit"><a href="/register/" id="register">注册</a></td>
+		</tr>
+	</table>
+</form>
+{% endblock %}
